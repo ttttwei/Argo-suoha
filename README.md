@@ -80,7 +80,7 @@ bash <(curl -sL suoha.ggff.net | tr -d '\r')
 ```bash
 bash <(curl -sL [https://raw.githubusercontent.com/ttttwei/Agro-suoha/main/suoha.sh](https://raw.githubusercontent.com/ttttwei/Agro-suoha/main/suoha.sh) | tr -d '\r')
 ```
-**根据菜单选择模式**
+**📌根据菜单选择模式**
 
 * **1 梭哈模式（无需cloudflare域名重启会失效！）**
 * **2 安装服务（需要cloudflare域名重启不会失效！）**
@@ -89,5 +89,5 @@ bash <(curl -sL [https://raw.githubusercontent.com/ttttwei/Agro-suoha/main/suoha
 * **5 管理服务**
 * **0.退出脚本**
 
-服务安装完成,管理服务请运行命令 suoha。
+* **📌服务安装完成,管理服务请运行命令 suoha**
 也可在输出的 v2ray.txt 查看 VMess/VLESS 配置信息。
