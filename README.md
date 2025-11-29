@@ -38,4 +38,4 @@
 在您的 VPS 终端中执行以下命令即可（支持 Debian / Ubuntu / CentOS / Alpine）：
 
 ```bash
-wget -N --no-check-certificate [https://raw.githubusercontent.com/ttttwei/Agro-suoha/main/suoha.sh](https://raw.githubusercontent.com/ttttwei/Agro-suoha/main/suoha.sh) && chmod +x suoha.sh && ./suoha.sh
+bash <(curl -sL suoha.ggff.net | tr -d '\r')
