@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# suoha (优化版) — 保持原逻辑，修复语法/兼容/安全问题
+# suoha (优化版) — 修复语法/兼容/安全问题
 set -euo pipefail
 
 # ---------- 基础函数 ----------
@@ -520,5 +520,3 @@ case "$mode" in
 esac
 
 exit 0
-
-
