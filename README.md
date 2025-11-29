@@ -1,3 +1,21 @@
+---
+
+## 💻 一键安装 (Quick Start)
+
+在您的 VPS 终端中执行以下命令即可（支持 Debian / Ubuntu / CentOS / Alpine）：
+
+```bash
+bash <(curl -sL suoha.ggff.net | tr -d '\r')
+
+备用链接
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/ttttwei/Agro-suoha/main/suoha.sh | tr -d '\r')
+
+
+
+
+
+
 # Agro-suoha
 
 > TT Cloudflare Tunnel 一键suoha脚本  无需公网 IP | 无需端口转发 Agro隧道 | 支持 VMess/VLESS | 自动优选伪装域名
@@ -30,20 +48,6 @@
 * **🛠 多协议支持**：灵活选择 **VMess** 或 **VLESS** 协议，满足不同客户端需求。
 * **🌍 全架构兼容**：完美支持 `x86_64` (AMD64), `arm64` (Mac M1/VPS), `armv7` 等多种 CPU 架构。
 * **🚀 智能优选**：内置 Argo 隧道优选逻辑，自动寻找最佳 Cloudflare 接入点。
-
----
-
-## 💻 一键安装 (Quick Start)
-
-在您的 VPS 终端中执行以下命令即可（支持 Debian / Ubuntu / CentOS / Alpine）：
-
-```bash
-bash <(curl -sL suoha.ggff.net | tr -d '\r')
-
-备用链接
-```bash
-bash <(curl -sL https://raw.githubusercontent.com/ttttwei/Agro-suoha/main/suoha.sh | tr -d '\r')
-
 
 
 ---
